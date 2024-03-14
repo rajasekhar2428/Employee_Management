@@ -1,0 +1,35 @@
+.navbar-brand{
+    color:black;
+
+}
+.container-fluid{
+    background-color:blue;
+
+}
+
+.btn-add-user {
+    color: white;
+    background-color: blue;
+  }
+  
+  .btn-logout {
+    color: white;
+    background-color: red; /* Adjust the background color as desired */
+  }
+  
+  /* Optional: To adjust the styling of the buttons */
+  .btn-add-user,
+  .btn-logout {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn-add-user:hover,
+  .btn-logout:hover {
+    opacity: 0.8;
+  }
+  

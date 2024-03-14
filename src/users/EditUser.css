@@ -1,0 +1,30 @@
+.home-container {
+    background-image: url('../images/new3.jpg'); /* Adjust the path as needed */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .btn {
+    width: 48%; /* Adjust width as needed */
+  }
+  
+  .button-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    width: auto; /* Adjust width as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  

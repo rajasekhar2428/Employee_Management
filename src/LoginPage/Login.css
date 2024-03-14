@@ -1,0 +1,54 @@
+.login-container{
+    padding: 40px 60px;
+    font-size: 0.75rem;
+    border: 2px #f50892 solid;
+    border-radius: 5px;
+    background: #e8f4f1;
+}
+.login-container[type=text].input:focus{
+    outline: none;
+}
+
+
+body {
+
+    margin: rem rem;
+    
+    display: block;
+    
+    justify-content: center;
+    
+    align-items: center;
+}
+    
+#buttontn-outline-primary {
+    
+    width: 6rem;
+    
+    cursor: pointer;
+    
+    border: center;
+    
+    border-radius: 18px;
+    
+    background: linear-gradient (45deg, aqua, #430b92);
+    
+    padding: 1rem 3rem;
+    
+    color: aliceblue;
+    
+    font-size: 1.5rem;
+}
+
+    
+#btn-outline-primary:hover {
+    
+    color: black;
+    
+    text-shadow: 0px 2px 5px white;
+    
+    box-shadow: 0px 0px 50px 0px 0px 90px 8px 0px 70px 8px 8px 70px rgb(171, 166, 166),
+     rgb(149, 147, 147),
+      rgb(155, 153, 153), 
+      rgb(181, 176, 200);
+}

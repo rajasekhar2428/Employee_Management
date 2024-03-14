@@ -1,0 +1,10 @@
+.landing-page {
+    background-image: url('../images/user.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-left: 35px;
+    width:1400px;
+    height:600px;
+}
