@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Employee_Management/static/css/main.44625fcd.css",
+    "main.js": "/Employee_Management/static/js/main.0873b386.js",
+    "static/js/453.93b740cb.chunk.js": "/Employee_Management/static/js/453.93b740cb.chunk.js",
+    "static/media/new.jpg": "/Employee_Management/static/media/new.6c49aa879b4b0db6d1c4.jpg",
+    "static/media/new3.jpg": "/Employee_Management/static/media/new3.6ee1aa809088865ca18e.jpg",
+    "static/media/backgroundImage.jpg": "/Employee_Management/static/media/backgroundImage.4c67cbbc26e2b5ca13ce.jpg",
+    "static/media/user.jpg": "/Employee_Management/static/media/user.aba273ec340e106c4938.jpg",
+    "index.html": "/Employee_Management/index.html",
+    "main.44625fcd.css.map": "/Employee_Management/static/css/main.44625fcd.css.map",
+    "main.0873b386.js.map": "/Employee_Management/static/js/main.0873b386.js.map",
+    "453.93b740cb.chunk.js.map": "/Employee_Management/static/js/453.93b740cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44625fcd.css",
+    "static/js/main.0873b386.js"
+  ]
+}
