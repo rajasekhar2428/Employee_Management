@@ -68,7 +68,7 @@ export default function EditUsers() {
 
         try {
             // Add the user to the database
-            await axios.put(`http://localhost:8080/user/${id}`, user);
+            await axios.put(`https://modify-3.onrender.com/user/${id}`, user);
             navigate(`/viewuser/${id}`);
         } catch (error) {
             console.error("Error updating user:", error);
@@ -81,7 +81,7 @@ export default function EditUsers() {
     }, []);
 
     const loadUser = async () => {
-        const result = await axios.get(`http://localhost:8080/user/${id}`);
+        const result = await axios.get(`https://modify-3.onrender.com/user/${id}`);
         setUser(result.data);
     };
 
