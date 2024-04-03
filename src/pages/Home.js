@@ -31,7 +31,7 @@ if (validateEmail(email)) {
 
     const loadUsers = async () => {
         try {
-            const result = await axios.get("http://localhost:8080/users");
+            const result = await axios.get("https://modify-3.onrender.com/users");
             setUsers(result.data);
         } catch (error) {
             console.error('Error loading users:', error);
@@ -41,7 +41,7 @@ if (validateEmail(email)) {
 
     const deleteUser = async (id) => {
         try {
-            await axios.delete(`http://localhost:8080/user/${id}`);
+            await axios.delete(`https://modify-3.onrender.com/user/${id}`);
             // Refresh the user list after successful deletion
             loadUsers();
         } catch (error) {
