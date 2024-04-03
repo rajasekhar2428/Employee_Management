@@ -20,7 +20,7 @@ export default function ViewUsers() {
     },[]
         );
         const loadUser =async ()=>{
-            const result=await axios.get(`http://localhost:8080/user/${id}`)
+            const result=await axios.get(`https://modify-3.onrender.com/user/${id}`)
             setUser(result.data);
         }
         return (
