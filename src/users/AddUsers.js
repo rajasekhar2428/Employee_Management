@@ -87,7 +87,7 @@ function isValidEmail(email) {
   
     try {
       // Add the user to the database
-      const response = await axios.post(`http://localhost:8080/user`, user);
+      const response = await axios.post(`https://modify-3.onrender.com/user`, user);
       console.log(response.data);
       setResponseData(response.data);
       // Extract the ID of the newly added user from the response
